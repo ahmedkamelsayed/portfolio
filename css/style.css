@@ -2817,6 +2817,12 @@ input, textarea, select {
     grid-template-columns: 1fr 1fr;
   }
 
+  .certs-grid .cert-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
   /* Education Mobile */
   .education-card {
     flex-direction: column;
