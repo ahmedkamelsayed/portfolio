@@ -2733,7 +2733,12 @@ input, textarea, select {
   }
 
   .about-info-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 16px;
+  }
+
+  .about-info-item {
+    padding: 6px 0;
   }
 
   .stat-card {
@@ -2781,8 +2786,13 @@ input, textarea, select {
 
   /* Innovation Mobile */
   .pipeline-flow {
-    flex-direction: column;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .pipeline-connector {
+    display: none;
   }
 
   .pipeline-connector {
@@ -2809,7 +2819,7 @@ input, textarea, select {
 
   /* Certs Mobile */
   .certs-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Education Mobile */
@@ -2822,6 +2832,12 @@ input, textarea, select {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+
+  .contact-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
 
   .contact-form {
