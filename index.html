@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmed Kamel Abdul-khalek - Senior Software QA Engineer specializing in AI-augmented testing, automation, and quality assurance for government and enterprise projects.">
+  <meta name="keywords" content="QA Engineer, Software Testing, ISTQB, Selenium, AI Testing, Ahmed Kamel">
+  <meta name="author" content="Ahmed Kamel Abdul-khalek">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ahmed Kamel | Senior Software QA Engineer">
+  <meta property="og:description" content="Senior Software QA Engineer specializing in AI-augmented testing, automation, and quality assurance for government and enterprise projects.">
+  <meta property="og:image" content="images/ahmed-photo.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ahmed Kamel Portfolio">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmed Kamel | Senior Software QA Engineer">
+  <meta name="twitter:description" content="Senior Software QA Engineer specializing in AI-augmented testing, automation, and quality assurance.">
+  <meta name="twitter:image" content="images/ahmed-photo.jpg">
+
+  <title>Ahmed Kamel | Senior Software QA Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <span>Ahmed Kamel</span>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Animated Background -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-brand">AK<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certs</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle theme">
+          <i class="fas fa-sun theme-icon-light"></i>
+          <i class="fas fa-moon theme-icon-dark"></i>
+        </button>
+        <a href="mailto:ahmad.kamel.sayed@gmail.com" class="nav-cta btn btn-sm btn-primary">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <div class="hero-greeting">
+          <span class="wave">👋</span>
+          <span>Hello, I'm</span>
+        </div>
+        <h1 class="hero-name">Ahmed Kamel</h1>
+        <div class="hero-title-wrap">
+          <span class="hero-title-static">I'm a&nbsp;</span>
+          <span class="hero-title-typed" id="typedText"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-desc">Software QA Engineer with 4+ years of experience building AI-augmented testing workflows that reduce cycle time by 40-50%. ISTQB certified, specializing in government and enterprise projects across KSA and Egypt.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <i class="fas fa-paper-plane"></i>
+            <span>Get in Touch</span>
+          </a>
+          <a href="#experience" class="btn btn-glass">
+            <i class="fas fa-briefcase"></i>
+            <span>My Experience</span>
+          </a>
+          <a href="assets/Ahmed_Kamel_CV.pdf" class="btn btn-glass" download="Ahmed_Kamel_CV.pdf">
+            <i class="fas fa-download"></i>
+            <span>Download CV</span>
+          </a>
+        </div>
+        <div class="hero-social">
+          <a href="mailto:ahmad.kamel.sayed@gmail.com" class="social-link" title="Email" aria-label="Send email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:+201118044851" class="social-link" title="Phone" aria-label="Call">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ahmedkamelSTE" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn" aria-label="LinkedIn profile">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/ahmedkamelSTE" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub" aria-label="GitHub profile">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual fade-in">
+        <div class="photo-container">
+          <div class="photo-ring"></div>
+          <div class="photo-frame">
+            <img src="images/ahmed-photo.jpg" alt="Ahmed Kamel Abdul-khalek - Senior QA Engineer" loading="eager">
+          </div>
+          <div class="photo-float-badge top-right">
+            <i class="fas fa-certificate"></i>
+            <span>ISTQB x3</span>
+          </div>
+          <div class="photo-float-badge bottom-left">
+            <i class="fas fa-robot"></i>
+            <span>AI Testing</span>
+          </div>
+          <div class="photo-float-badge bottom-right">
+            <i class="fas fa-chart-line"></i>
+            <span>4+ Years</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee / Tech Ticker -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span><i class="fas fa-check-circle"></i> Selenium WebDriver</span>
+        <span><i class="fas fa-check-circle"></i> Postman</span>
+        <span><i class="fas fa-check-circle"></i> JMeter</span>
+        <span><i class="fas fa-check-circle"></i> Java</span>
+        <span><i class="fas fa-check-circle"></i> AI Agents</span>
+        <span><i class="fas fa-check-circle"></i> MCP Integration</span>
+        <span><i class="fas fa-check-circle"></i> Azure DevOps</span>
+        <span><i class="fas fa-check-circle"></i> SQL Server</span>
+        <span><i class="fas fa-check-circle"></i> PHP Laravel</span>
+        <span><i class="fas fa-check-circle"></i> Agile/Scrum</span>
+        <span><i class="fas fa-check-circle"></i> Prompt Engineering</span>
+        <span><i class="fas fa-check-circle"></i> Jira</span>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <span><i class="fas fa-check-circle"></i> Selenium WebDriver</span>
+        <span><i class="fas fa-check-circle"></i> Postman</span>
+        <span><i class="fas fa-check-circle"></i> JMeter</span>
+        <span><i class="fas fa-check-circle"></i> Java</span>
+        <span><i class="fas fa-check-circle"></i> AI Agents</span>
+        <span><i class="fas fa-check-circle"></i> MCP Integration</span>
+        <span><i class="fas fa-check-circle"></i> Azure DevOps</span>
+        <span><i class="fas fa-check-circle"></i> SQL Server</span>
+        <span><i class="fas fa-check-circle"></i> PHP Laravel</span>
+        <span><i class="fas fa-check-circle"></i> Agile/Scrum</span>
+        <span><i class="fas fa-check-circle"></i> Prompt Engineering</span>
+        <span><i class="fas fa-check-circle"></i> Jira</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-user"></i> About Me</span>
+        <h2>Who I Am</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text fade-in-left">
+          <p class="about-lead">I'm a <strong>Senior Software QA Engineer</strong> based in Cairo, Egypt, passionate about building quality into every stage of the software lifecycle.</p>
+          <p>With 4+ years of experience in manual, automation, API, and performance testing across government and enterprise projects in KSA and Egypt, I focus on finding the right balance between thorough testing and fast delivery.</p>
+          <p>I build <strong>AI-augmented QA workflows</strong> using multi-agent architectures and MCP services to automate requirement analysis, test case generation, and test execution, which has significantly reduced testing cycle time by approximately 40-50%.</p>
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <span class="info-label">Name</span>
+              <span class="info-value">Ahmed Kamel Abdul-khalek</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">Cairo, Egypt</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Email</span>
+              <a href="mailto:ahmad.kamel.sayed@gmail.com" class="info-value info-link">ahmad.kamel.sayed@gmail.com</a>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Education</span>
+              <span class="info-value">B.Sc. Computer Science - Helwan Univ.</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Languages</span>
+              <span class="info-value">Arabic (Native), English (Professional)</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Availability</span>
+              <span class="info-value available"><i class="fas fa-circle"></i> Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats fade-in-right">
+          <div class="stat-card" id="stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="4">0</span>
+              <span class="stat-suffix">+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="3">0</span>
+              <span class="stat-suffix"></span>
+              <span class="stat-label">ISTQB Certifications</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="50">0</span>
+              <span class="stat-suffix">%</span>
+              <span class="stat-label">Faster Testing Cycles</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-suffix">+</span>
+              <span class="stat-label">Gov Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-code"></i> Skills</span>
+        <h2>Technical Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-in-left">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+            <h3>AI & Automation</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-robot"></i> AI-Augmented QA</span>
+            <span class="skill-tag"><i class="fas fa-diagram-project"></i> Multi-Agent Systems</span>
+            <span class="skill-tag"><i class="fas fa-brain"></i> LLM Test Generation</span>
+            <span class="skill-tag"><i class="fas fa-plug"></i> MCP Integration</span>
+            <span class="skill-tag"><i class="fas fa-terminal"></i> Prompt Engineering</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="92"><div class="skill-bar-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in-right">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-vial"></i></div>
+            <h3>Testing</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-hand-pointer"></i> Manual Testing</span>
+            <span class="skill-tag"><i class="devicon-postman-plain"></i> API Testing (Postman)</span>
+            <span class="skill-tag"><i class="fas fa-tachometer-alt"></i> Performance (JMeter)</span>
+            <span class="skill-tag"><i class="devicon-selenium-original"></i> Selenium WebDriver</span>
+            <span class="skill-tag"><i class="fas fa-check-double"></i> Functional Testing</span>
+            <span class="skill-tag"><i class="fas fa-cogs"></i> Non-Functional Testing</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="95"><div class="skill-bar-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in-left">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <h3>Programming & Database</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="devicon-java-plain"></i> Java (OOP)</span>
+            <span class="skill-tag"><i class="devicon-laravel-original"></i> PHP Laravel</span>
+            <span class="skill-tag"><i class="devicon-microsoftsqlserver-plain"></i> SQL Server</span>
+            <span class="skill-tag"><i class="devicon-mysql-plain"></i> MySQL</span>
+            <span class="skill-tag"><i class="devicon-html5-plain"></i> HTML/CSS/JS</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="82"><div class="skill-bar-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in-right">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3>Methodologies & Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-arrows-spin"></i> Agile (Scrum)</span>
+            <span class="skill-tag"><i class="devicon-azuredevops-plain"></i> Azure DevOps</span>
+            <span class="skill-tag"><i class="devicon-jira-plain"></i> Jira</span>
+            <span class="skill-tag"><i class="devicon-trello-plain"></i> Trello</span>
+            <span class="skill-tag"><i class="fas fa-clipboard-list"></i> Test Planning</span>
+            <span class="skill-tag"><i class="fas fa-bug"></i> Defect Lifecycle</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="90"><div class="skill-bar-fill"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-briefcase"></i> Experience</span>
+        <h2>Work History</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"><i class="fas fa-building"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Quality Control Engineer</h3>
+                <span class="timeline-company">Envnt.</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> Feb 2023 - Present</span>
+                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Riyadh & Cairo</span>
+              </div>
+            </div>
+            <ul class="timeline-details">
+              <li>Responsible for test plans and test cases for major Saudi government projects, ensuring alignment with business requirements and government standards.</li>
+              <li>Built an <strong>AI-powered multi-agent testing pipeline</strong> covering the full testing lifecycle, cutting testing cycle time by 40-50%.</li>
+              <li>Developed requirement analysis agents that extract testable scenarios from specs automatically.</li>
+              <li>Created a test execution agent connected to MCP services for hands-off regression testing.</li>
+              <li>Set up automated UI test suites with <strong>Selenium WebDriver</strong> for solid regression coverage.</li>
+              <li>Handled API testing with <strong>Postman</strong> and performance testing with <strong>JMeter</strong>.</li>
+              <li>Worked closely with developers through <strong>Azure DevOps</strong> to track bugs and keep releases on schedule.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>AI Agents</span><span>Selenium</span><span>Postman</span><span>JMeter</span><span>Azure DevOps</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"><i class="fas fa-building"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Quality Control</h3>
+                <span class="timeline-company">Smart Gate</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> Oct 2021 - Feb 2023</span>
+                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</span>
+              </div>
+            </div>
+            <ul class="timeline-details">
+              <li>Took part in release planning, sprint planning, and daily stand-ups as part of an Agile team.</li>
+              <li>Performed manual testing, performance profiling, and wrote detailed test cases and bug reports.</li>
+              <li>Helped improve the team's QA processes and documentation over time.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Manual Testing</span><span>Agile</span><span>Performance Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"><i class="fas fa-code"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Web Developer <span class="parttime">(Part-time)</span></h3>
+                <span class="timeline-company">Smart Gate</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> Nov 2019 - Aug 2020</span>
+                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</span>
+              </div>
+            </div>
+            <ul class="timeline-details">
+              <li>Built and maintained web apps using PHP Laravel; also handled system testing and validation.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>PHP Laravel</span><span>HTML/CSS</span><span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Innovation Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-lightbulb"></i> Innovation</span>
+        <h2>AI-Driven Testing Pipeline</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="innovation-card scale-up">
+        <div class="pipeline-flow">
+          <div class="pipeline-step" data-step="1">
+            <div class="pipeline-icon pulse"><i class="fas fa-file-alt"></i></div>
+            <h4>Requirements Analysis</h4>
+            <p>AI agent extracts testable scenarios from specs</p>
+          </div>
+          <div class="pipeline-connector"><div class="connector-line"></div><i class="fas fa-chevron-right"></i></div>
+          <div class="pipeline-step" data-step="2">
+            <div class="pipeline-icon pulse"><i class="fas fa-list-check"></i></div>
+            <h4>Test Case Generation</h4>
+            <p>LLM-based automatic test case creation</p>
+          </div>
+          <div class="pipeline-connector"><div class="connector-line"></div><i class="fas fa-chevron-right"></i></div>
+          <div class="pipeline-step" data-step="3">
+            <div class="pipeline-icon pulse"><i class="fas fa-play-circle"></i></div>
+            <h4>Auto Execution</h4>
+            <p>MCP-connected hands-off regression testing</p>
+          </div>
+          <div class="pipeline-connector"><div class="connector-line"></div><i class="fas fa-chevron-right"></i></div>
+          <div class="pipeline-step" data-step="4">
+            <div class="pipeline-icon pulse"><i class="fas fa-chart-bar"></i></div>
+            <h4>Results & Reports</h4>
+            <p>Automated reporting and analysis</p>
+          </div>
+        </div>
+        <div class="innovation-bottom">
+          <div class="innovation-stat">
+            <span class="innovation-stat-number">40-50%</span>
+            <span class="innovation-stat-label">Faster Testing Cycles</span>
+          </div>
+          <div class="innovation-divider"></div>
+          <p class="innovation-desc">Designed and built a system of multiple AI agents, each responsible for one stage of testing. This replaced a completely manual workflow and made testing cycles significantly faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-folder-open"></i> Projects</span>
+        <h2>Key Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card fade-in" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #6366f1, #818cf8);">
+            <div class="project-overlay">
+              <span class="project-type">Government</span>
+            </div>
+            <div class="project-thumb-icon"><i class="fas fa-users"></i></div>
+          </div>
+          <div class="project-info">
+            <div class="project-date">Nov 2024 - Dec 2025</div>
+            <h3>Tawteen - HRDF</h3>
+            <p>Human Resources Development Fund - Major Saudi government platform for workforce development and human capital management.</p>
+            <div class="project-tags">
+              <span>KSA Gov</span><span>QA Lead</span><span>AI Testing</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-in" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #ec4899, #f472b6);">
+            <div class="project-overlay">
+              <span class="project-type">Government</span>
+            </div>
+            <div class="project-thumb-icon"><i class="fas fa-balance-scale"></i></div>
+          </div>
+          <div class="project-info">
+            <div class="project-date">Feb 2024 - Nov 2024</div>
+            <h3>Infath Project</h3>
+            <p>The Attribution and Liquidation Center of the Ministry of Justice - Legal processing and case management system.</p>
+            <div class="project-tags">
+              <span>KSA Gov</span><span>Testing</span><span>Automation</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-in" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #06b6d4, #22d3ee);">
+            <div class="project-overlay">
+              <span class="project-type">Government</span>
+            </div>
+            <div class="project-thumb-icon"><i class="fas fa-city"></i></div>
+          </div>
+          <div class="project-info">
+            <div class="project-date">Jun 2023 - Feb 2024</div>
+            <h3>ECZA/IGS Project</h3>
+            <p>Economic Cities and Special Zones Authority - Platform for managing economic zones and special development areas.</p>
+            <div class="project-tags">
+              <span>KSA Gov</span><span>Testing</span><span>API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-in" data-tilt>
+          <div class="project-thumb" style="background: linear-gradient(135deg, #f59e0b, #fbbf24);">
+            <div class="project-overlay">
+              <span class="project-type">Government</span>
+            </div>
+            <div class="project-thumb-icon"><i class="fas fa-bus"></i></div>
+          </div>
+          <div class="project-info">
+            <div class="project-date">Feb 2023 - Jun 2023</div>
+            <h3>TGA Project</h3>
+            <p>Transport General Authority - Transportation regulatory and management systems for the Kingdom of Saudi Arabia.</p>
+            <div class="project-tags">
+              <span>KSA Gov</span><span>Testing</span><span>Performance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="projects-note fade-in"><i class="fas fa-lock"></i> Additional projects under NDA are not listed.</p>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-award"></i> Certifications</span>
+        <h2>ISTQB Credentials</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card fade-in">
+          <div class="cert-ribbon">CTFL-MAT</div>
+          <div class="cert-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>ISTQB Certified Mobile App Tester</h3>
+          <p class="cert-date"><i class="far fa-calendar-alt"></i> August 2023</p>
+          <p class="cert-id"><i class="fas fa-fingerprint"></i> ID: 230822039</p>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+        <div class="cert-card fade-in">
+          <div class="cert-ribbon">CTFL-AT</div>
+          <div class="cert-icon"><i class="fas fa-sync-alt"></i></div>
+          <h3>ISTQB Certified Agile Tester</h3>
+          <p class="cert-date"><i class="far fa-calendar-alt"></i> July 2023</p>
+          <p class="cert-id"><i class="fas fa-fingerprint"></i> ID: 230718005</p>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+        <div class="cert-card fade-in">
+          <div class="cert-ribbon">CTFL</div>
+          <div class="cert-icon"><i class="fas fa-award"></i></div>
+          <h3>ISTQB Certified Tester Foundation Level</h3>
+          <p class="cert-date"><i class="far fa-calendar-alt"></i> May 2023</p>
+          <p class="cert-id"><i class="fas fa-fingerprint"></i> ID: 230509022</p>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-graduation-cap"></i> Education</span>
+        <h2>Academic Background</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-card fade-in-left">
+        <div class="edu-icon"><i class="fas fa-university"></i></div>
+        <div class="edu-content">
+          <h3>Bachelor Degree in Computer Science</h3>
+          <p class="edu-school"><i class="fas fa-building-columns"></i> Faculty of Computers and Artificial Intelligence - Helwan University</p>
+          <div class="edu-meta">
+            <span><i class="far fa-calendar-alt"></i> 2016 - 2020</span>
+            <span><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</span>
+          </div>
+        </div>
+      </div>
+      <div class="languages-card scale-up">
+        <h3><i class="fas fa-language"></i> Languages</h3>
+        <div class="lang-items">
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">Arabic</span>
+              <span class="lang-level">Native Language</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Professional Working Proficiency</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="badge"><i class="fas fa-envelope"></i> Contact</span>
+        <h2>Get in Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in-left">
+          <p class="contact-intro">Have an opportunity or want to connect? I'd love to hear from you. Feel free to reach out through any of the channels below or use the contact form.</p>
+          <div class="contact-cards">
+            <a href="mailto:ahmad.kamel.sayed@gmail.com" class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>ahmad.kamel.sayed@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+201118044851" class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <span>+20 111 804 4851</span>
+              </div>
+            </a>
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Location</strong>
+                <span>Cairo, Egypt</span>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/ahmedkamelSTE" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>ahmedkamelSTE</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form fade-in-right" id="contactForm">
+          <input type="hidden" name="access_key" value="c331d150-41cc-4d92-93ab-3b950ca4cd3e">
+          <input type="hidden" name="subject" value="New Portfolio Contact">
+          <input type="checkbox" name="botcheck" style="display:none">
+          <div class="form-group">
+            <input type="text" name="name" id="nameInput" required autocomplete="name" placeholder=" ">
+            <label for="nameInput">Your Name</label>
+            <span class="form-error" id="nameError">Please enter your name</span>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="emailInput" required autocomplete="email" placeholder=" ">
+            <label for="emailInput">Your Email</label>
+            <span class="form-error" id="emailError">Please enter a valid email</span>
+          </div>
+          <div class="form-group">
+            <select name="subject" id="subjectInput" required>
+              <option value="" disabled selected></option>
+              <option value="Job Opportunity">Job Opportunity</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Consulting">Consulting</option>
+              <option value="Other">Other</option>
+            </select>
+            <label for="subjectInput">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="messageInput" rows="5" required placeholder=" "></textarea>
+            <label for="messageInput">Your Message</label>
+            <span class="form-error" id="messageError">Please enter your message</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-glow btn-full" id="submitBtn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="nav-brand">AK<span class="dot">.</span></a>
+          <p>Senior Software QA Engineer specializing in AI-augmented testing workflows.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <a href="mailto:ahmad.kamel.sayed@gmail.com"><i class="fas fa-envelope"></i> ahmad.kamel.sayed@gmail.com</a>
+          <a href="tel:+201118044851"><i class="fas fa-phone"></i> +20 111 804 4851</a>
+          <a href="https://www.linkedin.com/in/ahmedkamelSTE" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ahmed Kamel Abdul-khalek. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="mailto:ahmad.kamel.sayed@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/ahmedkamelSTE" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/ahmedkamelSTE" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div class="toast-icon"><i class="fas fa-check-circle"></i></div>
+    <div class="toast-message">Message sent successfully!</div>
+    <button class="toast-close" aria-label="Close notification"><i class="fas fa-times"></i></button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
