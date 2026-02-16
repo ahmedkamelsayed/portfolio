@@ -2937,7 +2937,52 @@ input, textarea, select {
   }
 
   .cert-card {
-    padding: 24px 16px;
+    padding: 20px 12px;
+  }
+
+  .certs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .about-info-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 12px;
+  }
+
+  .about-info-item {
+    padding: 4px 0;
+  }
+
+  .info-label {
+    font-size: 0.68rem;
+  }
+
+  .info-value {
+    font-size: 0.82rem;
+  }
+
+  .pipeline-flow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .pipeline-connector {
+    display: none;
+  }
+
+  .contact-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 14px 10px;
+    gap: 8px;
   }
 
   .toast {
