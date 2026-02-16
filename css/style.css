@@ -2734,6 +2734,11 @@ input, textarea, select {
 
   .about-info-grid {
     grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .about-info-item {
+    padding: 4px 0;
   }
 
   .stat-card {
