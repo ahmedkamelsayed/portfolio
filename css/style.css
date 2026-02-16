@@ -2733,12 +2733,7 @@ input, textarea, select {
   }
 
   .about-info-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 4px 16px;
-  }
-
-  .about-info-item {
-    padding: 6px 0;
+    grid-template-columns: 1fr;
   }
 
   .stat-card {
@@ -2786,13 +2781,8 @@ input, textarea, select {
 
   /* Innovation Mobile */
   .pipeline-flow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .pipeline-connector {
-    display: none;
+    flex-direction: column;
+    gap: 16px;
   }
 
   .pipeline-connector {
@@ -2832,12 +2822,6 @@ input, textarea, select {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 32px;
-  }
-
-  .contact-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
   }
 
   .contact-form {
@@ -2937,52 +2921,12 @@ input, textarea, select {
   }
 
   .cert-card {
-    padding: 20px 12px;
+    padding: 24px 16px;
   }
 
   .certs-grid {
     grid-template-columns: 1fr 1fr;
     gap: 12px;
-  }
-
-  .about-info-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 2px 12px;
-  }
-
-  .about-info-item {
-    padding: 4px 0;
-  }
-
-  .info-label {
-    font-size: 0.68rem;
-  }
-
-  .info-value {
-    font-size: 0.82rem;
-  }
-
-  .pipeline-flow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-  }
-
-  .pipeline-connector {
-    display: none;
-  }
-
-  .contact-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  .contact-card {
-    flex-direction: column;
-    text-align: center;
-    padding: 14px 10px;
-    gap: 8px;
   }
 
   .toast {
